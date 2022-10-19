@@ -1,4 +1,61 @@
+/*page height - full screem */
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+.wrapper{
+    background-color: #1c1c1c;
+    height: 100%;
+}
+
+/* centering content */
 .row{
     justify-content: center;
     text-align: center;
+    background-color: #1c1c1c;
+    padding: 1%
+}
+
+h1, h2, h3{
+    font-family: 'Oxygen', sans-serif;
+    color: #ffffff;
+}
+
+p{
+    font-family: 'Quicksand', sans-serif;
+    color: #838383;
+}
+
+/* date select input */
+.dateLabel{
+    font-family: 'Quicksand', sans-serif;
+    color: #838383;
+}
+.dateInput{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #ffffff;
+    color: #1c1c1c;
+    border: 3px double #838383;
+    border-radius: 6px;
+}
+
+/* data from api */
+.dataTitle{
+    text-decoration: overline;
+    text-decoration-color: #ffffff;
+}
+
+.infoTitle{
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+}
+
+/* responsive image */
+.myImg{
+    width: 50%;
+    height: auto;
+    border: double #ffffff;
+    border-radius: 6px;
 }
